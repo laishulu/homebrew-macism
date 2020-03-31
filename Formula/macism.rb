@@ -6,7 +6,7 @@ class Macism < Formula
   sha256 "cf3c5d84d7187272e017f06b06cc18b30b590393138b05ae11a9d83662e8fd5d"
 
   def install
-    bin.install "macsim"
+    bin.install "macism"
   end
 
   test do
