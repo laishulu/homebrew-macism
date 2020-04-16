@@ -2,10 +2,12 @@ class Macism < Formula
   version '1.0.0'
   desc "MacOS Input Source Manager"
   homepage "https://github.com/laishulu/macism"
-  url "https://github.com/laishulu/macism/releases/download/#{version}/macism-#{version}-x86_64-apple-darwin.tar.gz"
-  sha256 "cf3c5d84d7187272e017f06b06cc18b30b590393138b05ae11a9d83662e8fd5d"
+  url "https://github.com/laishulu/macism/archive/1.0.0.zip"
+  sha256 "ad74c46bb30b9965e844eca65c4cbc2674d64901501f05af6111ee5434431e83"
+  head "https://github.com/laishulu/macism/archive/master.zip"
 
   def install
+    system "swiftc" "macism.swift"
     bin.install "macism"
   end
 
