@@ -7,7 +7,7 @@ class Macism < Formula
   head "https://github.com/laishulu/macism/archive/master.zip"
 
   def install
-    system "swiftc" "macism.swift"
+    system "swiftc", "macism.swift"
     bin.install "macism"
   end
 
