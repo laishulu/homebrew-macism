@@ -1,5 +1,5 @@
 class Macism < Formula
-  version '1.0.0'
+  version "1.0.0"
   desc "MacOS Input Source Manager"
   homepage "https://github.com/laishulu/macism"
   url "https://github.com/laishulu/macism/archive/1.0.0.zip"
