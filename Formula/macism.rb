@@ -1,8 +1,8 @@
 class Macism < Formula
   desc "MacOS Input Source Manager"
   homepage "https://github.com/laishulu/macism"
-  url "https://github.com/laishulu/macism/archive/v1.3.0.tar.gz"
-  sha256 "a41b3acb305dcf4682a9d9beeffe63d01573bb5c97c49f3819132d275ac2bdb9"
+  url "https://github.com/laishulu/macism/archive/v1.3.1.tar.gz"
+  sha256 "d1e30236a0c5fa77ff7d1aeb03f525fd8e795e78ce4bc4e2b787f291f6896f54"
   head "https://github.com/laishulu/macism/archive/master.zip"
 
   def install
